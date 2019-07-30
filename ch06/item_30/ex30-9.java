@@ -1,6 +1,6 @@
 // enum 상수에 따라 분기하는 switch 문을 이용해서 코드 공유 - 좋은 방법인가?
 enum PayrollDay {
-    MONDAY, TUESDAY, WENDESDAY, THURSDAY, FRIDAY,
+    MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY,
     SATURDAY, SUNDAY;
     private static final int HOURS_PER_SHIFT = 8;
 
