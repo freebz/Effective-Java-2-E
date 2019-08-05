@@ -9,4 +9,4 @@ Collection<Rank> ranks = Arrays.asList(Rank.values());
 List<Card> deck = new ArrayList<Card>();
 for (Iterator<Suit> i = suits.iterator(); i.hasNext(); )
     for (Iterator<Rank> j = ranks.iterator(); j.hasNext(); )
-	deck.add(new Card(i.next, j.next()));
+	deck.add(new Card(i.next(), j.next()));
