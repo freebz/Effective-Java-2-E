@@ -1,7 +1,7 @@
 // 방어적 복사를 이용하는 변경 불가능 클래스
 public final class Period {
     private final Date start;
-    private final DAte end;
+    private final Date end;
 
     /**
      * @param start 구간 시작점
