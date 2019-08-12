@@ -4,7 +4,7 @@ public class Elvis implements Serializable {
     private Elvis() { }
 
     private String[] favoriteSongs =
-    { "Hound Dog", "Heartbreak Hotel" };
+        { "Hound Dog", "Heartbreak Hotel" };
     public void printFavorites() {
 	System.out.println(Arrays.toString(favoriteSongs));
     }
